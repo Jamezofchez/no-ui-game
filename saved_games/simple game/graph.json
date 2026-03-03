@@ -1,34 +1,34 @@
 {
     "nodes": {
-        "5903278608": {
-            "id": 5903278608,
-            "text": "start node test",
-            "left_option": "left option",
-            "right_option": "right option",
-            "audio_filename": "node_5903278608.wav",
+        "2478584485680": {
+            "id": 2478584485680,
+            "text": "Start! You are trapped in a dark, damp maze. Two doors lie ahead of you, one made of gold, and one made of silver.",
+            "left_option": "Choose the gold door on the left",
+            "right_option": "Choose the silver door on the right.",
+            "audio_filename": "node_2478584485680.wav",
             "adjacency_list": {
-                "1": 5903281248,
-                "0": 5903282448
+                "1": 2478584485776,
+                "0": 2478584485728
             },
             "is_win": false
         },
-        "5903281248": {
-            "id": 5903281248,
-            "text": "loss - test",
+        "2478584485776": {
+            "id": 2478584485776,
+            "text": "You go through the gold door on the left. Fresh air swiftly hits your nostrils. You are no longer trapped in the maze.",
             "left_option": "",
             "right_option": "",
-            "audio_filename": "node_5903281248.wav",
-            "adjacency_list": {},
-            "is_win": false
-        },
-        "5903282448": {
-            "id": 5903282448,
-            "text": "win test",
-            "left_option": "",
-            "right_option": "",
-            "audio_filename": "node_5903282448.wav",
+            "audio_filename": "node_2478584485776.wav",
             "adjacency_list": {},
             "is_win": true
+        },
+        "2478584485728": {
+            "id": 2478584485728,
+            "text": "You go through the silver door on the right. A chill runs up your spine, as death swiftly arrives. Your body will be trapped in the maze for millennia.",
+            "left_option": "",
+            "right_option": "",
+            "audio_filename": "node_2478584485728.wav",
+            "adjacency_list": {},
+            "is_win": false
         }
     }
 }

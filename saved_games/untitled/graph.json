@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "1211682379568": {
+            "id": 1211682379568,
+            "text": "The tavern is warm and bustling, but a sense of unease creeps through the air. Ayn whispers.\n[Ayin]\nIf theres trouble in this town, itll start here.\nBarry scans the room, and responds a little too loudly.\n[Barry]\nBartenders watching us too closely.\nThe bartender appears to overhear and comes over. He says,\n[Bartender]\n You lot look capable. Looking for coin?",
+            "left_option": "Ask the bartender about work",
+            "right_option": "Ignore him and sit quietly to observe",
+            "audio_filename": "node_1211682379568.wav",
+            "adjacency_list": {
+                "1": 1211682379664,
+                "0": 1211682379616
+            },
+            "is_win": false
+        },
+        "1211682379664": {
+            "id": 1211682379664,
+            "text": "The bartender lowers his voice.\n[Bartender]\nGoblins took over the old mill last night.\nCindy frowns. \n[Cindy]\nGoblins rarely act alone.\n[Bartender]\nTheyve got a leader. Alive would be best.",
+            "left_option": "",
+            "right_option": "",
+            "audio_filename": "node_1211682379664.wav",
+            "adjacency_list": {},
+            "is_win": false
+        },
+        "1211682379616": {
+            "id": 1211682379616,
+            "text": "You sit in silence as the noise swells around you.\n[Barry]\nTwo locals left in a hurry when we walked in.\nA hooded patron passes by and loudly exclaims to his friend.\n[Hooded Figure]\nMills cursed now.",
+            "left_option": "",
+            "right_option": "",
+            "audio_filename": "node_1211682379616.wav",
+            "adjacency_list": {},
+            "is_win": false
+        }
+    }
+}

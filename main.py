@@ -2,7 +2,7 @@
 #     from gamePlayer import GamePlayer
 #     import os
 #     player = GamePlayer()
-#     player.playGame(os.path.join(os.path.dirname(__file__), "saved_games", "Lord of the rings"))
+#     player.playGame(os.path.join(os.path.dirname(__file__), "saved_games", "untitled"))
 
 if __name__ == "__main__":
     from gui.homePage import run
